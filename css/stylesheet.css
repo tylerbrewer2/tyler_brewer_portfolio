@@ -63,6 +63,54 @@ body {
 	padding-top: 4em;
 }
 
+.about {
+	height: 40em;
+	width: 100%;
+	overflow: hidden;
+	background: repeating-linear-gradient(
+	-55deg,
+	#FFF,
+	#FFF 30px,
+	#e6e7e8 1.5px,
+	#e6e7e8 31.5px );
+}
+.about_content {
+	background-color: #FFF;
+	width: 90%;
+	margin: auto;
+	height: 80%;
+	margin-top: 4%;
+	padding-top: 1.5%;
+	padding-left: 2%;
+}
+.self_photo {
+	background: url("../images/me.jpg") center no-repeat;
+	float: left;
+	width: 35%;
+	height: 90%;
+	margin-top: 1%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+.text {
+	float: right;
+	width: 60%;
+	padding-right: 1.5%;
+	height: 90%;
+}
+.text h2 {
+	font-weight: 700;
+}
+.text p {
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 2.5;
+	margin: 0;
+}
+
 .work_img {
 	float: left;
 	width: 33.333334%;
