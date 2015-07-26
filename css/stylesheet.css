@@ -1,0 +1,153 @@
+body {
+	font-family: "Ubuntu", sans-serif;
+}
+.navigation {
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	height: 5rem;
+	top: 0;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 9999;
+}
+.logo {
+	float: left;
+	padding-top: .3rem;
+	padding-left: 2em;
+	width: 3em;
+}
+.info {
+	float: left;
+	font-family: "Ubuntu";
+	font-weight: 300;
+	margin-top: .3em;
+	padding-left: 1em;
+}
+.info h2 {
+	margin: 0;
+	font-size: 1.2em ;
+}
+.info p {
+	margin: 0;
+	font-size: .7em;
+}
+.nav-links {
+	float: right;
+	display: inline-block;
+	padding-right: 3rem;
+	padding-top: .9rem;
+	font-weight: 300;
+	color: #40565C;
+	transition: color .25s ease;
+}
+.nav-links:hover {
+	color: #C4D2DB;
+	cursor: pointer;
+}
+
+.header {
+	height: 100vh;
+	width: 100%;
+	background-color: #ff5951;
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	font-family: "Lato";
+}
+.header h1 {
+	padding-top: 20rem;
+	font-size: 3em;
+}
+.arrow {
+	padding-top: 4em;
+}
+
+.work_img {
+	float: left;
+	width: 33.333334%;
+	height: 20rem;
+}
+.personal {
+	background: url("../images/personal_logo.jpg") center no-repeat;
+}
+.mudd_valley {
+	background: url("../images/mudd_valley.jpg") center no-repeat;
+}
+.take_flight {
+	background: url("../images/take_flight.jpg") center no-repeat;
+}
+.rise_logo {
+	background: url("../images/rise_logo.jpg") center no-repeat;
+}
+.type_posters {
+background: url("../images/three_period_posters.jpg") center no-repeat;
+}
+.book_covers {
+	background: url("../images/book_covers.jpg") center no-repeat;
+}
+.infographic {
+	background: url("../images/infographic.jpg") center no-repeat;
+}
+.cologne {
+	background: url("../images/black_bear_cologne.jpg") center no-repeat;
+}
+.nuovo {
+	background: url("../images/nuovo.jpg") center no-repeat;
+}
+.personal, .mudd_valley, .take_flight, .rise_logo, .type_posters, .book_covers, .infographic, .cologne, .nuovo {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.overlay {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 20rem;
+	background-color: #000033;
+	opacity: 0;
+	transition: all .5s;
+}
+.overlay:hover {
+	opacity: .85;
+	cursor: pointer;
+}
+.img_text {
+	color: white;
+	padding-top: 9em;
+	text-align: center;
+	font-weight: 300;
+}
+.img_text h3 {
+	margin: 0
+}
+.img_text p {
+	font-style: italic;
+	margin-top: .1em
+}
+.footer {
+	clear: both;
+	background-color: #222127;
+	height: 4em;
+}
+.icons {
+	width: 80%;
+	padding-top: 1.1rem;
+	margin-top: -.1rem;
+}
+.icons li {
+	display: inline-block;
+	float: right;
+	padding-right: .3em;
+}
+.icons i {
+	color: white;
+	font-size: 2em;
+	transition: opacity .5s ease;
+}
+.icons i:hover {
+	opacity: .5;
+	cursor: pointer;
+}
