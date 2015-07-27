@@ -55,6 +55,10 @@ body {
 	text-align: center;
 	font-weight: 100;
 	font-family: "Lato";
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 .header h1 {
 	padding-top: 20rem;
