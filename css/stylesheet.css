@@ -53,7 +53,7 @@ body {
 }
 
 .header {
-	background: url("../images/background-black.jpg") center no-repeat;
+	background: url("../images/background3.jpg") center no-repeat;
 	height: 100vh;
 	width: 100%;
 	color: white;
@@ -129,6 +129,7 @@ body {
 	width: 33.333334%;
 	height: 20rem;
 }
+
 .personal {
 	background: url("../images/personal_logo.jpg") center no-repeat;
 }
@@ -194,7 +195,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	width: 100%;
 	background-color: #000033;
 	color: white;
-	background: url("../images/subway-black.jpg") center no-repeat;
+	background: url("../images/subway2.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
