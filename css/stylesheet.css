@@ -54,6 +54,7 @@ body {
 
 .header {
 	background: url("../images/background3.jpg") center no-repeat;
+	background-attachment: fixed;
 	height: 100vh;
 	width: 100%;
 	color: white;
@@ -123,7 +124,6 @@ body {
 	line-height: 2.5;
 	margin: 0;
 }
-
 .work_img {
 	float: left;
 	width: 33.333334%;
@@ -196,6 +196,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	background-color: #000033;
 	color: white;
 	background: url("../images/subway2.jpg") center no-repeat;
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
