@@ -75,7 +75,10 @@ body {
 	font-weight: 100;
 }
 .arrow {
-	padding-top: 4em;
+	margin-top: 4em;
+}
+.arrow:hover {
+	cursor: pointer;
 }
 
 .about {
