@@ -127,6 +127,9 @@ body {
 	line-height: 2.5;
 	margin: 0;
 }
+a.image-links {
+	text-decoration: none;
+}
 .work_img {
 	float: left;
 	width: 33.333334%;
@@ -257,4 +260,43 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 .icons i:hover {
 	opacity: .5;
 	cursor: pointer;
+}
+
+.box-1 {
+	margin-top: 7em;
+	float: left;
+	width: 30%;
+	height: 700px;
+	padding: 0;
+	border: 0;
+}
+
+.box-text {
+	font-family: "Lato";
+	font-style: italic;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+.box-text h2, .box-text h4 {
+	font-weight: 400;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.box-text p {
+	margin-top: 2em;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+div.box-2 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: 7em;
+	float: right;
+	width: 67%;
+	height: 39em;
+	padding: 0;
+	margin-right: 3%;
+	border: 0;
 }
