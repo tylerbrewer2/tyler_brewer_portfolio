@@ -289,8 +289,47 @@ div.box-2 {
 	border: 0;
 }
 
-div#house_perks {
+div#knowledge {
 	text-align: center;
 	margin-top: 3em;
 	width: 100%;
+}
+
+.contact{
+	font-family: "Open Sans";
+	clear: both;
+	width: 70%;
+	height: 35em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact h2 {
+	color: #003339;
+	margin-bottom: 25px;
+	font-weight: 300;
+	font-size: 3em;
+	padding-top: 3em;
+}
+.contact p {
+	color: #003339;
+	margin-top: 0;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 1.7em;
+}
+
+.contact button {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+	border: 0;
+  color: #ffffff;
+  background: #f3d488;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+	transition: all .5s ease;
+}
+.contact button:hover {
+	transform: scale(.9);
 }
