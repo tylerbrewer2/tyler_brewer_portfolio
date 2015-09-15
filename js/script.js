@@ -21,7 +21,7 @@ $(document).ready(function() {
   $(".about_link").click(function() {
     $('html, body').animate({
         scrollTop: $(".scroll-knowledge").offset().top
-    }, "1000");
+    }, 1000);
   });
   $(".work_link").click(function() {
     $('html, body').animate({
