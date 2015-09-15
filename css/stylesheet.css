@@ -85,6 +85,29 @@ body {
 a.image-links {
 	text-decoration: none;
 }
+
+.show_links {
+	margin-bottom: 2em;
+	list-style-type: none;
+	text-align: center;
+	font-family: "Open Sans";
+	font-size: 1.5em;
+	font-weight: 100;
+	color: #00a0aa;
+}
+.show_links li {
+	color: #003339;
+	border: solid 1px;
+	display: inline;
+	padding: .5em 2.5em;
+	transition: all .7s ease;
+}
+.show_links li:hover {
+	cursor: pointer;
+	background-color: #003339;
+	color: #fff;
+}
+
 .work_img {
 	float: left;
 	width: 33.333334%;
@@ -225,32 +248,9 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	text-align: center;
 	list-style-type: none;
 }
-.footer {
-	clear: both;
-	background-color: #222127;
-	height: 4em;
-}
-.icons {
-	width: 80%;
-	padding-top: 1.1rem;
-	margin-top: -.1rem;
-}
-.icons li {
-	display: inline-block;
-	float: right;
-	padding-right: .3em;
-}
-.icons i {
-	color: white;
-	font-size: 2em;
-	transition: opacity .5s ease;
-}
-.icons i:hover {
-	opacity: .5;
-	cursor: pointer;
-}
 
 .box-1 {
+	color: #222127;
 	margin-top: 7em;
 	float: left;
 	width: 30%;
@@ -332,4 +332,50 @@ div#knowledge {
 }
 .contact button:hover {
 	transform: scale(.9);
+}
+.icons {
+	float: right;
+	padding-right: 3rem;
+	width: 80%;
+	padding-top: 1.1rem;
+	margin-top: -.1rem;
+}
+.icons li {
+	display: inline-block;
+	float: right;
+	padding-right: .3em;
+}
+.icons i {
+	color: white;
+	font-size: 2em;
+	transition: opacity .5s ease;
+}
+.icons i:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+.footer {
+	clear: both;
+	background-color: #222127;
+	height: 4em;
+}
+.arrows {
+	text-align: center;
+}
+
+.projects_arrow_right, .projects_arrow_left {
+	color: #222127;
+	transition: all .4s ease;
+	cursor: pointer;
+}
+
+.projects_arrow_right {
+	padding-left: 2em;
+}
+
+.projects_arrow_right:hover {
+	transform: translate(10px);
+}
+.projects_arrow_left:hover {
+	transform: translate(-10px);
 }
