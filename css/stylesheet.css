@@ -1,6 +1,7 @@
 body {
 	font-family: "Ubuntu", sans-serif;
 }
+
 .navigation {
 	background-color: #ffffff;
 	position: fixed;
@@ -81,52 +82,6 @@ body {
 	cursor: pointer;
 }
 
-.about {
-	height: 40em;
-	width: 100%;
-	overflow: hidden;
-	background: repeating-linear-gradient(
-	-55deg,
-	#FFF,
-	#FFF 30px,
-	#e6e7e8 1.5px,
-	#e6e7e8 31.5px );
-}
-.about_content {
-	background-color: #FFF;
-	width: 90%;
-	margin: auto;
-	height: 80%;
-	margin-top: 4%;
-	padding-top: 1.5%;
-	padding-left: 2%;
-}
-.self_photo {
-	background: url("../images/me.jpg") center no-repeat;
-	float: left;
-	width: 35%;
-	height: 90%;
-	margin-top: 1%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-.text {
-	float: right;
-	width: 60%;
-	padding-right: 1.5%;
-	height: 90%;
-}
-.text h2 {
-	font-weight: 700;
-}
-.text p {
-	font-weight: 300;
-	font-size: 1.2em;
-	line-height: 2.5;
-	margin: 0;
-}
 a.image-links {
 	text-decoration: none;
 }
@@ -199,9 +154,9 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	clear: both;
 	height: 45em;
 	width: 100%;
-	background-color: #000033;
+	background-color: white;
 	color: white;
-	background: url("../images/subway-logo-colors.jpg") center no-repeat;
+	/*background: url("../images/subway-logo-colors.jpg") center no-repeat;*/
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -236,6 +191,39 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 .thick {
 	color: red;
 	font-weight: 400
+}
+
+.knowledge {
+	font-family: "Open Sans";
+	padding-top: 10em;
+	height: 500px;
+	text-align: center;
+}
+.knowledge_icons {
+	color:#f3d488;
+}
+.knowledge_content {
+	color: #003339;
+}
+.column {
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	padding: 1em;
+	transition: all .5s ease;
+}
+.column:hover {
+	transform: translateY(-25px);
+}
+.column h3 {
+	font-weight: 600;
+}
+.column p {
+	font-size: 1em;
+	font-weight: 300;
+	padding: .4em 0;
+	text-align: center;
+	list-style-type: none;
 }
 .footer {
 	clear: both;
@@ -299,4 +287,10 @@ div.box-2 {
 	padding: 0;
 	margin-right: 3%;
 	border: 0;
+}
+
+div#house_perks {
+	text-align: center;
+	margin-top: 3em;
+	width: 100%;
 }
