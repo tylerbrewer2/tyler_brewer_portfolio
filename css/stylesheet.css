@@ -118,21 +118,26 @@ body {
 	transition: all .5s ease;
 }
 .arrow:hover {
-	transform: scale(.8);
+	transform: translateY(10px);
 	cursor: pointer;
 }
 
 a.image-links {
 	text-decoration: none;
 }
-.scroll-knowledge {
+.ledge {
 	margin-top: 3em;
+}
+
+.scroll-knowledge {
+	margin-bottom: 6em;
 }
 .scroll-work {
 	margin-top: 6em;
 }
 
 .show_links {
+	padding-left: 0;
 	margin-bottom: 2em;
 	list-style-type: none;
 	text-align: center;
@@ -261,6 +266,8 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	color: red;
 	font-weight: 400
 }
+
+
 
 .knowledge {
 	font-family: "Open Sans";
