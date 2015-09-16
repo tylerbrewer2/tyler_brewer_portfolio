@@ -115,8 +115,10 @@ body {
 }
 .arrow {
 	margin-top: 4em;
+	transition: all .5s ease;
 }
 .arrow:hover {
+	transform: scale(.8);
 	cursor: pointer;
 }
 
@@ -423,8 +425,8 @@ div#knowledge {
 }
 
 .projects_arrow_right:hover {
-	transform: translate(10px);
+	transform: translate(5px);
 }
 .projects_arrow_left:hover {
-	transform: translate(-10px);
+	transform: translate(-5px);
 }
