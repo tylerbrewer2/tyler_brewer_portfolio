@@ -1,3 +1,10 @@
+::selection {
+  background: #a2ddd1; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #a2ddd1; /* Gecko Browsers */
+}
+
 body {
 	font-family: "Ubuntu", sans-serif;
 }
@@ -156,6 +163,7 @@ a.image-links {
 .show_links li:hover {
 	cursor: pointer;
 	background-color: #003339;
+	border-color: #003339;
 	color: #fff;
 }
 
@@ -171,11 +179,11 @@ a.image-links {
 .mudd_valley {
 	background: url("../images/mudd_valley.jpg") center no-repeat;
 }
-.take_flight {
-	background: url("../images/take_flight.jpg") center no-repeat;
+.four_logos {
+	background: url("../images/four_logos.jpg") center no-repeat;
 }
-.rise_logo {
-	background: url("../images/rise_logo.jpg") center no-repeat;
+.logo_front {
+	background: url("../images/logos.jpg") center no-repeat;
 }
 .type_posters {
 background: url("../images/three_period_posters.jpg") center no-repeat;
@@ -192,7 +200,25 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 .nuovo {
 	background: url("../images/nuovo.jpg") center no-repeat;
 }
-.personal, .mudd_valley, .take_flight, .rise_logo, .type_posters, .book_covers, .infographic, .cologne, .nuovo {
+.park_shark {
+	background: url("../images/park_shark.jpg") center no-repeat;
+}
+.where_am_i {
+	background: url("../images/where_am_i.jpg") center no-repeat;
+}
+.thinkful_logo {
+	background: url("../images/thinkful_logo.jpg") center no-repeat;
+}
+.thinkful_projects {
+	background: url("../images/thinkful_projects.jpg")center no-repeat;
+}
+.cloudr {
+	background: url("../images/cloudr.jpg") center no-repeat;
+}
+.cambridge {
+	background: url("../images/cambridge.jpg") center no-repeat;
+}
+.personal, .mudd_valley, .four_logos, .logo_front, .type_posters, .book_covers, .infographic, .cologne, .nuovo, .park_shark, .where_am_i, .thinkful_logo, .cloudr, .cambridge {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
