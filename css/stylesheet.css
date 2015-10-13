@@ -579,3 +579,6 @@ div#knowledge {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+.web_url:visited {
+  color: #222127;
+}
