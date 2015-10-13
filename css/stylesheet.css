@@ -19,12 +19,14 @@ body {
 	margin-left: auto;
 	z-index: 9999;
 }
+
 .logo {
 	float: left;
 	padding-top: .3rem;
 	padding-left: 2em;
 	width: 3em;
 }
+
 .info {
 	float: left;
 	font-family: "Ubuntu";
@@ -32,14 +34,17 @@ body {
 	margin-top: .3em;
 	padding-left: 1em;
 }
+
 .info h2 {
 	margin: 0;
 	font-size: 1.2em ;
 }
+
 .info p {
 	margin: 0;
 	font-size: .7em;
 }
+
 .nav-links {
 	float: right;
 	display: inline-block;
@@ -47,15 +52,18 @@ body {
 	padding-top: .9rem;
 	font-weight: 300;
 }
+
 .nav-links a {
   color: #40565C;
   position: relative;
   text-decoration: none;
 }
+
 .nav-links a:hover {
   color: #40565C;
   cursor: pointer;
 }
+
 .nav-links a:before {
   content: "";
   position: absolute;
@@ -70,27 +78,33 @@ body {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
+
 .nav-links a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
 .nav-links a:visited {
 	color: #40565C;
 }
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
     position: relative;
 }
+
 .no-video .video-container video,
 .touch .video-container video {
     display: none;
 }
+
 .no-video .video-container .poster,
 .touch .video-container .poster {
     display: block !important;
 }
+
 .video-container {
     position: relative;
     bottom: 0%;
@@ -101,22 +115,26 @@ body {
     background: #000;
     z-index: 0;
 }
+
 .video-container .poster img {
     width: 100%;
     bottom: 0;
     position: absolute;
 }
+
 .video-container .filter {
     z-index: 100;
     position: absolute;
     background: rgba(0, 0, 0, 0.4);
     width: 100%;
 }
+
 .video-container video {
     position: absolute;
     z-index: 0;
     bottom: 0;
 }
+
 .video-container video.fillWidth {
     width: 100%;
 }
@@ -135,13 +153,16 @@ body {
 	font-weight: 400;
 	font-size: 3em;
 }
+
 .text-container h3 {
 	font-weight: 400;
 }
+
 .arrow {
 	margin-top: 4em;
 	transition: all .5s ease;
 }
+
 .arrow:hover {
 	transform: translateY(10px);
 	cursor: pointer;
@@ -150,6 +171,7 @@ body {
 a.image-links {
 	text-decoration: none;
 }
+
 .ledge {
 	margin-top: 3em;
 }
@@ -157,6 +179,7 @@ a.image-links {
 .scroll-knowledge {
 	margin-bottom: 6em;
 }
+
 .scroll-work {
 	margin-top: 6em;
 }
@@ -171,6 +194,7 @@ a.image-links {
 	font-weight: 100;
 	color: #00a0aa;
 }
+
 .show_links li {
 	color: #003339;
 	border: solid 1px;
@@ -178,6 +202,7 @@ a.image-links {
 	padding: .5em 2.5em;
 	transition: all .7s ease;
 }
+
 .show_links li:hover {
 	cursor: pointer;
 	background-color: #003339;
@@ -194,54 +219,70 @@ a.image-links {
 .personal {
 	background: url("../images/personal_logo.jpg") center no-repeat;
 }
+
 .mudd_valley {
 	background: url("../images/mudd_valley.jpg") center no-repeat;
 }
+
 .four_logos {
 	background: url("../images/four_logos.jpg") center no-repeat;
 }
+
 .logo_front {
 	background: url("../images/logos.jpg") center no-repeat;
 }
+
 .type_posters {
 background: url("../images/three_period_posters.jpg") center no-repeat;
 }
+
 .uncle_mikes {
 	background: url("../images/uncle_mikes.jpg") center no-repeat;
 }
+
 .infographic {
 	background: url("../images/infographic.jpg") center no-repeat;
 }
+
 .cologne {
 	background: url("../images/black_bear_cologne.jpg") center no-repeat;
 }
+
 .nuovo {
 	background: url("../images/nuovo.jpg") center no-repeat;
 }
+
 .park_shark {
 	background: url("../images/park_shark.jpg") center no-repeat;
 }
+
 .where_am_i {
 	background: url("../images/where_am_i.jpg") center no-repeat;
 }
+
 .thinkful_logo {
 	background: url("../images/thinkful_logo.jpg") center no-repeat;
 }
+
 .thinkful_projects {
 	background: url("../images/thinkful_projects.jpg")center no-repeat;
 }
+
 .cloudr {
 	background: url("../images/cloudr.jpg") center no-repeat;
 }
+
 .cambridge {
 	background: url("../images/cambridge.jpg") center no-repeat;
 }
+
 .personal, .mudd_valley, .four_logos, .logo_front, .type_posters, .uncle_mikes, .infographic, .cologne, .nuovo, .park_shark, .where_am_i, .thinkful_logo, .cloudr, .cambridge {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
+
 .overlay {
 	margin: 0;
 	padding: 0;
@@ -251,23 +292,28 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	opacity: 0;
 	transition: all .5s;
 }
+
 .overlay:hover {
 	opacity: .85;
 	cursor: pointer;
 }
+
 .img_text {
 	color: white;
 	padding-top: 9em;
 	text-align: center;
 	font-weight: 300;
 }
+
 .img_text h3 {
 	margin: 0
 }
+
 .img_text p {
 	font-style: italic;
 	margin-top: .1em
 }
+
 .skills {
 	clear: both;
 	height: 45em;
@@ -281,15 +327,18 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	-o-background-size: cover;
 	background-size: cover;
 }
+
 .skills_text {
 	clear: both;
 	width: 40em;
 	margin: 0 auto;
 	padding-top: 18em;
 }
+
 .skills_header {
 	float: left;
 }
+
 .skills h1 {
 	margin: 0;
 	font-family: "Lato";
@@ -297,6 +346,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	text-align: right;
 	font-size: 3em
 }
+
 .skills_list ul {
 	font-family: "Lato";
 	font-weight: 100;
@@ -306,12 +356,11 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	float: left;
 	list-style-type: none;
 }
+
 .thick {
 	color: red;
 	font-weight: 400
 }
-
-
 
 .knowledge {
 	font-family: "Open Sans";
@@ -319,12 +368,15 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	height: 500px;
 	text-align: center;
 }
+
 .knowledge_icons {
 	color:#f3d488;
 }
+
 .knowledge_content {
 	color: #003339;
 }
+
 .column {
 	text-align: center;
 	display: inline-block;
@@ -332,12 +384,15 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	padding: 1em;
 	transition: all .5s ease;
 }
+
 .column:hover {
 	transform: translateY(-25px);
 }
+
 .column h3 {
 	font-weight: 600;
 }
+
 .column p {
 	font-size: 1em;
 	font-weight: 300;
@@ -362,16 +417,19 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	margin-left: 8%;
 	margin-right: 8%;
 }
+
 .box-text h2, .box-text h4 {
 	font-weight: 400;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
 .box-text p {
 	margin-top: 2em;
 	font-weight: 300;
 	line-height: 1.5em;
 }
+
 div.box-2 {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -427,9 +485,11 @@ div#knowledge {
   text-decoration: none;
 	transition: all .5s ease;
 }
+
 .contact button:hover {
 	transform: scale(.9);
 }
+
 .icons {
 	float: right;
 	padding-right: 3rem;
@@ -437,25 +497,30 @@ div#knowledge {
 	padding-top: 1.1rem;
 	margin-top: -.1rem;
 }
+
 .icons li {
 	display: inline-block;
 	float: right;
 	padding-right: .3em;
 }
+
 .icons i {
 	color: white;
 	font-size: 2em;
 	transition: opacity .5s ease;
 }
+
 .icons i:hover {
 	opacity: .5;
 	cursor: pointer;
 }
+
 .footer {
 	clear: both;
 	background-color: #222127;
 	height: 4em;
 }
+
 .arrows {
 	padding-top: 1em;
 	text-align: center;
@@ -467,6 +532,7 @@ div#knowledge {
 	transition: all .4s ease;
 	cursor: pointer;
 }
+
 .projects_arrow_left {
 	padding-right: 1.5em;
 }
@@ -478,21 +544,21 @@ div#knowledge {
 .projects_arrow_right:hover {
 	transform: translate(5px);
 }
+
 .projects_arrow_left:hover {
 	transform: translate(-5px);
 }
-
-
-
 
 .web_url {
   color: #222127;
   position: relative;
   text-decoration: none;
 }
+
 .web_url:hover {
   color: #222127;
 }
+
 .web_url:before {
   content: "";
   position: absolute;
@@ -507,6 +573,7 @@ div#knowledge {
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
+
 .web_url:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
