@@ -1,8 +1,8 @@
 ::selection {
-  background: #a2ddd1; /* WebKit/Blink Browsers */
+  background: #86E2D5; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #a2ddd1; /* Gecko Browsers */
+  background: #86E2D5; /* Gecko Browsers */
 }
 
 body {
@@ -48,18 +48,36 @@ body {
 	font-weight: 300;
 }
 .nav-links a {
-	transition: color .25s ease;
-	text-decoration: none;
-	color: #40565C;
+  color: #40565C;
+  position: relative;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #40565C;
+  cursor: pointer;
+}
+.nav-links a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #40565C;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.nav-links a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 .nav-links a:visited {
 	color: #40565C;
 }
-.nav-links a:hover {
-	color: #C4D2DB;
-	cursor: pointer;
-}
-
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -188,8 +206,8 @@ a.image-links {
 .type_posters {
 background: url("../images/three_period_posters.jpg") center no-repeat;
 }
-.book_covers {
-	background: url("../images/book_covers.jpg") center no-repeat;
+.uncle_mikes {
+	background: url("../images/uncle_mikes.jpg") center no-repeat;
 }
 .infographic {
 	background: url("../images/infographic.jpg") center no-repeat;
@@ -218,7 +236,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 .cambridge {
 	background: url("../images/cambridge.jpg") center no-repeat;
 }
-.personal, .mudd_valley, .four_logos, .logo_front, .type_posters, .book_covers, .infographic, .cologne, .nuovo, .park_shark, .where_am_i, .thinkful_logo, .cloudr, .cambridge {
+.personal, .mudd_valley, .four_logos, .logo_front, .type_posters, .uncle_mikes, .infographic, .cologne, .nuovo, .park_shark, .where_am_i, .thinkful_logo, .cloudr, .cambridge {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -462,4 +480,35 @@ div#knowledge {
 }
 .projects_arrow_left:hover {
 	transform: translate(-5px);
+}
+
+
+
+
+.web_url {
+  color: #222127;
+  position: relative;
+  text-decoration: none;
+}
+.web_url:hover {
+  color: #222127;
+}
+.web_url:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #222127;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.web_url:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
