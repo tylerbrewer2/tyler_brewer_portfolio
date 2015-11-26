@@ -1,3 +1,9 @@
+$ubuntu: "Ubuntu", Helvetica, sans-serif;
+$lato: "Lato", Helvetica, sans-serif;
+$open-sans: "Open Sans", Helvetica, sans-serif;
+$white: #ffffff;
+$blue-green: #40565C;
+
 ::selection {
   background: #86E2D5; /* WebKit/Blink Browsers */
 }
@@ -6,11 +12,11 @@
 }
 
 body {
-	font-family: "Ubuntu", sans-serif;
+	font-family: $ubuntu;
 }
 
 .navigation {
-	background-color: #ffffff;
+	background-color: $white;
 	position: fixed;
 	width: 100%;
 	height: 5em;
@@ -29,7 +35,7 @@ body {
 
 .info {
 	float: left;
-	font-family: "Ubuntu";
+	font-family: $ubuntu;
 	font-weight: 300;
 	margin-top: .3em;
 	padding-left: 1em;
@@ -49,11 +55,11 @@ body {
 	padding-top: .9rem;
 	font-weight: 300;
   a {
-    color: #40565C;
+    color: $blue-green;
     position: relative;
     text-decoration: none;
     &:hover {
-      color: #40565C;
+      color: $blue-green;
       cursor: pointer;
       &:before {
         visibility: visible;
@@ -68,14 +74,14 @@ body {
       height: 1px;
       bottom: 0;
       left: 0;
-      background-color: #40565C;
+      background-color: $blue-green;
       visibility: hidden;
       transform: scaleX(0);
       -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s;
     }
     &:visited {
-      color: #40565C;
+      color: $blue-green;
     }
   }
 }
@@ -124,7 +130,6 @@ body {
     video.fillWidth {
           width: 100%;
     }
-
 }
 
 .text-container {
@@ -133,7 +138,7 @@ body {
   position: absolute;
 	text-align: center;
   color: white;
-	font-family: "Lato";
+	font-family: $lato;
   margin-top: 20em;
   h1 {
     font-weight: 400;
@@ -174,7 +179,7 @@ a.image-links {
 	margin-bottom: 2em;
 	list-style-type: none;
 	text-align: center;
-	font-family: "Open Sans";
+	font-family: $open-sans;
 	font-size: 1.5em;
 	font-weight: 100;
 	color: #00a0aa;
@@ -188,7 +193,7 @@ a.image-links {
       cursor: pointer;
       background-color: #003339;
       border-color: #003339;
-      color: #fff;
+      color: $white;
     }
   }
 }
@@ -308,7 +313,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	background-size: cover;
   h1 {
     margin: 0;
-    font-family: "Lato";
+    font-family: $lato;
     font-weight: 100;
     text-align: right;
     font-size: 3em
@@ -328,7 +333,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 
 .skills_list {
   ul {
-    font-family: "Lato";
+    font-family: $lato;
     font-weight: 100;
     padding-top: .2em;
     font-size: 1.4em;
@@ -390,7 +395,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 }
 
 .box-text {
-	font-family: "Lato";
+	font-family: $lato;
 	font-style: italic;
 	margin-left: 8%;
 	margin-right: 8%;
@@ -452,7 +457,7 @@ div#knowledge {
     -moz-border-radius: 5;
     border-radius: 5px;
     border: 0;
-    color: #ffffff;
+    color: $white;
     background: #f3d488;
     padding: 10px 20px 10px 20px;
     text-decoration: none;

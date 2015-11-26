@@ -7,7 +7,7 @@
   /* Gecko Browsers */ }
 
 body {
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Ubuntu", Helvetica, sans-serif; }
 
 .navigation {
   background-color: #ffffff;
@@ -27,7 +27,7 @@ body {
 
 .info {
   float: left;
-  font-family: "Ubuntu";
+  font-family: "Ubuntu", Helvetica, sans-serif;
   font-weight: 300;
   margin-top: .3em;
   padding-left: 1em; }
@@ -114,7 +114,7 @@ body {
   position: absolute;
   text-align: center;
   color: white;
-  font-family: "Lato";
+  font-family: "Lato", Helvetica, sans-serif;
   margin-top: 20em; }
   .text-container h1 {
     font-weight: 400;
@@ -146,7 +146,7 @@ a.image-links {
   margin-bottom: 2em;
   list-style-type: none;
   text-align: center;
-  font-family: "Open Sans";
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: 100;
   color: #00a0aa; }
@@ -160,7 +160,7 @@ a.image-links {
       cursor: pointer;
       background-color: #003339;
       border-color: #003339;
-      color: #fff; }
+      color: #ffffff; }
 
 .work_img {
   float: left;
@@ -255,7 +255,7 @@ a.image-links {
   background-size: cover; }
   .skills h1 {
     margin: 0;
-    font-family: "Lato";
+    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 100;
     text-align: right;
     font-size: 3em; }
@@ -270,7 +270,7 @@ a.image-links {
   float: left; }
 
 .skills_list ul {
-  font-family: "Lato";
+  font-family: "Lato", Helvetica, sans-serif;
   font-weight: 100;
   padding-top: .2em;
   font-size: 1.4em;
@@ -321,7 +321,7 @@ a.image-links {
   border: 0; }
 
 .box-text {
-  font-family: "Lato";
+  font-family: "Lato", Helvetica, sans-serif;
   font-style: italic;
   margin-left: 8%;
   margin-right: 8%; }
