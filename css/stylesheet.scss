@@ -11,6 +11,10 @@ $cyan: #86E2D5;
 $dark-blue-green: #40565C;
 $light-blue-green: #00a0aa;
 $gold: #f3d488;
+$rgba-white-0: rgba(256,256,256,0);
+$rgba-white-1: rgba(256,256,256,1);
+$rgba-light-blue-green-0: rgba(0,160,170,0);
+$rgba-light-blue-green-85: rgba(0,160,170,.85);
 
 ::selection {
   background: $cyan; /* WebKit/Blink Browsers */
@@ -279,17 +283,29 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	background-size: cover;
 }
 
+// Use rgba to use different opacities as opposed to opacity attribute
 .overlay {
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 20rem;
-	background-color: $light-blue-green;
-	opacity: 0;
+	background: $rgba-light-blue-green-0;
 	transition: all .5s;
+  h3 {
+    color: $rgba-white-0;
+  }
+  p {
+    color: $rgba-white-0;
+  }
   &:hover {
-    opacity: .85;
+    background: $rgba-light-blue-green-85;
     cursor: pointer;
+    h3 {
+      color: $rgba-white-1;
+    }
+    p {
+      color: $rgba-white-1;
+    }
   }
 }
 

@@ -223,12 +223,19 @@ a.image-links {
   padding: 0;
   width: 100%;
   height: 20rem;
-  background-color: #00a0aa;
-  opacity: 0;
+  background: rgba(0, 160, 170, 0);
   transition: all .5s; }
+  .overlay h3 {
+    color: rgba(255, 255, 255, 0); }
+  .overlay p {
+    color: rgba(255, 255, 255, 0); }
   .overlay:hover {
-    opacity: .85;
+    background: rgba(0, 160, 170, 0.85);
     cursor: pointer; }
+    .overlay:hover h3 {
+      color: white; }
+    .overlay:hover p {
+      color: white; }
 
 .img_text {
   color: #ffffff;
