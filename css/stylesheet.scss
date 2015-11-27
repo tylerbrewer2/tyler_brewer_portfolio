@@ -1,14 +1,22 @@
+// Sass Variables
 $ubuntu: "Ubuntu", Helvetica, sans-serif;
 $lato: "Lato", Helvetica, sans-serif;
 $open-sans: "Open Sans", Helvetica, sans-serif;
+$black: #000000;
+$darkest-blue-green: #003339;
+$rich-black: #222127;
 $white: #ffffff;
-$blue-green: #40565C;
+$red: #FF0000;
+$cyan: #86E2D5;
+$dark-blue-green: #40565C;
+$light-blue-green: #00a0aa;
+$gold: #f3d488;
 
 ::selection {
-  background: #86E2D5; /* WebKit/Blink Browsers */
+  background: $cyan; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #86E2D5; /* Gecko Browsers */
+  background: $cyan; /* Gecko Browsers */
 }
 
 body {
@@ -55,11 +63,11 @@ body {
 	padding-top: .9rem;
 	font-weight: 300;
   a {
-    color: $blue-green;
+    color: $dark-blue-green;
     position: relative;
     text-decoration: none;
     &:hover {
-      color: $blue-green;
+      color: $dark-blue-green;
       cursor: pointer;
       &:before {
         visibility: visible;
@@ -74,14 +82,14 @@ body {
       height: 1px;
       bottom: 0;
       left: 0;
-      background-color: $blue-green;
+      background-color: $dark-blue-green;
       visibility: hidden;
       transform: scaleX(0);
       -webkit-transition: all 0.3s ease-in-out 0s;
       transition: all 0.3s ease-in-out 0s;
     }
     &:visited {
-      color: $blue-green;
+      color: $dark-blue-green;
     }
   }
 }
@@ -109,7 +117,7 @@ body {
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: #000;
+    background: $black;
     z-index: 0;
     & .poster img {
       width: 100%;
@@ -137,7 +145,7 @@ body {
   z-index: 1000;
   position: absolute;
 	text-align: center;
-  color: white;
+  color: $white;
 	font-family: $lato;
   margin-top: 20em;
   h1 {
@@ -182,17 +190,17 @@ a.image-links {
 	font-family: $open-sans;
 	font-size: 1.5em;
 	font-weight: 100;
-	color: #00a0aa;
+	color: $light-blue-green;
   li {
-    color: #003339;
+    color: $darkest-blue-green;
     border: solid 1px;
     display: inline;
     padding: .5em 2.5em;
     transition: all .7s ease;
     &:hover {
       cursor: pointer;
-      background-color: #003339;
-      border-color: #003339;
+      background-color: $darkest-blue-green;
+      border-color: $darkest-blue-green;
       color: $white;
     }
   }
@@ -276,7 +284,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	padding: 0;
 	width: 100%;
 	height: 20rem;
-	background-color: #00a0aa;
+	background-color: $light-blue-green;
 	opacity: 0;
 	transition: all .5s;
   &:hover {
@@ -286,7 +294,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 }
 
 .img_text {
-	color: white;
+	color: $white;
 	padding-top: 9em;
 	text-align: center;
 	font-weight: 300;
@@ -303,8 +311,8 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 	clear: both;
 	height: 45em;
 	width: 100%;
-	background-color: white;
-	color: white;
+	background-color: $white;
+	color: $white;
 	/*background: url("../images/subway-logo-colors.jpg") center no-repeat;*/
 	background-attachment: fixed;
 	-webkit-background-size: cover;
@@ -344,23 +352,23 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 }
 
 .thick {
-	color: red;
+	color: $red;
 	font-weight: 400
 }
 
 .knowledge {
-	font-family: "Open Sans";
+	font-family: $open-sans;
 	padding-top: 10em;
 	height: 500px;
 	text-align: center;
 }
 
 .knowledge_icons {
-	color:#f3d488;
+	color:$gold;
 }
 
 .knowledge_content {
-	color: #003339;
+	color: $darkest-blue-green;
 }
 
 .column {
@@ -385,7 +393,7 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
 }
 
 .box-1 {
-	color: #222127;
+	color: $rich-black;
 	margin-top: 7em;
 	float: left;
 	width: 30%;
@@ -432,21 +440,21 @@ div#knowledge {
 }
 
 .contact{
-	font-family: "Open Sans";
+	font-family: $open-sans;
 	clear: both;
 	width: 70%;
 	height: 35em;
 	margin: 0 auto;
 	text-align: center;
   h2 {
-    color: #003339;
+    color: $darkest-blue-green;
     margin-bottom: 25px;
     font-weight: 300;
     font-size: 3em;
     padding-top: 3em;
   }
   p {
-    color: #003339;
+    color: $darkest-blue-green;
     margin-top: 0;
     font-weight: 300;
     font-size: 1.2em;
@@ -458,7 +466,7 @@ div#knowledge {
     border-radius: 5px;
     border: 0;
     color: $white;
-    background: #f3d488;
+    background: $gold;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     transition: all .5s ease;
@@ -492,7 +500,7 @@ div#knowledge {
 
 .footer {
 	clear: both;
-	background-color: #222127;
+	background-color: $rich-black;
 	height: 4em;
 }
 
@@ -503,7 +511,7 @@ div#knowledge {
 }
 
 .projects_arrow_right, .projects_arrow_left {
-	color: #222127;
+	color: $rich-black;
 	transition: all .4s ease;
 	cursor: pointer;
 }
@@ -519,17 +527,15 @@ div#knowledge {
 	padding-left: 1.5em;
   &:hover {
     transform: translate(5px);
-
   }
 }
 
-
 .web_url {
-  color: #222127;
+  color: $rich-black;
   position: relative;
   text-decoration: none;
   &:hover {
-    color: #222127;
+    color: $rich-black;
     &:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
@@ -543,7 +549,7 @@ div#knowledge {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: #222127;
+    background-color: $rich-black;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -551,6 +557,6 @@ div#knowledge {
     transition: all 0.3s ease-in-out 0s;
   }
   &:visited {
-    color: #222127;
+    color: $rich-black;
   }
 }

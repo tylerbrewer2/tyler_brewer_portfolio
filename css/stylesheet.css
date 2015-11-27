@@ -90,7 +90,7 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background: #000;
+  background: #000000;
   z-index: 0; }
   .video-container .poster img {
     width: 100%;
@@ -113,7 +113,7 @@ body {
   z-index: 1000;
   position: absolute;
   text-align: center;
-  color: white;
+  color: #ffffff;
   font-family: "Lato", Helvetica, sans-serif;
   margin-top: 20em; }
   .text-container h1 {
@@ -231,7 +231,7 @@ a.image-links {
     cursor: pointer; }
 
 .img_text {
-  color: white;
+  color: #ffffff;
   padding-top: 9em;
   text-align: center;
   font-weight: 300; }
@@ -245,8 +245,8 @@ a.image-links {
   clear: both;
   height: 45em;
   width: 100%;
-  background-color: white;
-  color: white;
+  background-color: #ffffff;
+  color: #ffffff;
   /*background: url("../images/subway-logo-colors.jpg") center no-repeat;*/
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -279,11 +279,11 @@ a.image-links {
   list-style-type: none; }
 
 .thick {
-  color: red;
+  color: #FF0000;
   font-weight: 400; }
 
 .knowledge {
-  font-family: "Open Sans";
+  font-family: "Open Sans", Helvetica, sans-serif;
   padding-top: 10em;
   height: 500px;
   text-align: center; }
@@ -353,7 +353,7 @@ div#knowledge {
   width: 100%; }
 
 .contact {
-  font-family: "Open Sans";
+  font-family: "Open Sans", Helvetica, sans-serif;
   clear: both;
   width: 70%;
   height: 35em;
