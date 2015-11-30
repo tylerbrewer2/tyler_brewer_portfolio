@@ -4,11 +4,9 @@
 $lato: "Lato", Helvetica, sans-serif;
 $open-sans: "Open Sans", Helvetica, sans-serif;
 $yantramanav: 'Yantramanav', sans-serif;
-$black: #000000;
 $darkest-blue-green: #003339;
 $rich-black: #222127;
 $white: #ffffff;
-$red: #FF0000;
 $cyan: #86E2D5;
 $dark-blue-green: #40565C;
 $light-blue-green: #00a0aa;
@@ -370,11 +368,6 @@ background: url("../images/three_period_posters.jpg") center no-repeat;
     float: left;
     list-style-type: none;
   }
-}
-
-.thick {
-	color: $red;
-	font-weight: 400
 }
 
 .knowledge {
