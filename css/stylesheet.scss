@@ -14,6 +14,14 @@ $rgba-white-1: rgba(256,256,256,1);
 $rgba-light-blue-green-0: rgba(0,160,170,0);
 $rgba-light-blue-green-85: rgba(0,160,170,.85);
 
+// Mixin for Browser compatibility
+@mixin transform($transform) {
+  -webkit-transform: $transform;
+     -moz-transform: $transform;
+      -ms-transform: $transform;
+          transform: $transform;
+}
+
 ::selection {
   background: $cyan; /* WebKit/Blink Browsers */
 }
@@ -38,8 +46,8 @@ body {
 
 .logo {
 	float: left;
-	padding-top: .3rem;
-	padding-left: 2em;
+	margin-top: .3rem;
+	margin-left: 2em;
 	width: 3em;
 }
 
@@ -49,18 +57,18 @@ body {
 	font-weight: 300;
 	margin-top: .3em;
 	padding-left: 1em;
-  h2 {
+  .logo_name {
     margin: 0;
     font-size: 1.2em ;
   }
-  p {
+  .logo_description {
     margin: 0;
     font-size: .7em;
   }
 }
 .nav-links {
 	float: right;
-	display: inline-block;
+  list-style-type: none;
 	padding-right: 3rem;
 	padding-top: .9rem;
 	font-weight: 300;
@@ -73,8 +81,7 @@ body {
       cursor: pointer;
       &:before {
         visibility: visible;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
+        @include transform(scaleX(1));
       }
     }
     &:before {
