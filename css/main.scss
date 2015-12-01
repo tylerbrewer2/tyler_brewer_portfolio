@@ -84,68 +84,25 @@ body {
   }
 }
 
-.homepage-hero-module {
-    border-right: none;
-    border-left: none;
+.hero_image {
     position: relative;
-}
-
-.no-video .video-container video,
-.touch .video-container video {
-    display: none;
-}
-
-.no-video .video-container .poster,
-.touch .video-container .poster {
-    display: block !important;
-}
-
-.video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
     height: 100%;
     width: 100%;
-    overflow: hidden;
     background: url("../images/tylerisababy-2.jpg") no-repeat center center fixed;
     background-size: cover;
-    z-index: 0;
-    & .poster img {
-      width: 100%;
-      bottom: 0;
-      position: absolute;
-    }
-    & .filter {
-      z-index: 100;
-      position: absolute;
-      background: rgba(0, 0, 0, 0.4);
-      width: 100%;
-    }
-    & video {
-      position: absolute;
-      z-index: 0;
-      bottom: 0;
-    }
-    video.fillWidth {
-          width: 100%;
-    }
 }
 
-.text-container {
+.hero_text {
   width: 100%;
-  z-index: 1000;
   position: absolute;
 	text-align: center;
   color: $white;
   font-family: $yantramanav;
   margin-top: 20em;
-  h1 {
+  .main_header {
     font-weight: 100;
     font-size: 64px;
     letter-spacing: 12px;
-  }
-  h3 {
-    font-weight: 400;
   }
 }
 
