@@ -1,3 +1,9 @@
+// imports Bourbon
+@import "../bourbon/bourbon";
+
+//imports Modules
+@import "modules/all";
+
 // Sass Variables
 $lato: "Lato", Helvetica, sans-serif;
 $open-sans: "Open Sans", Helvetica, sans-serif;
