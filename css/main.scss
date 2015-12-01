@@ -158,68 +158,14 @@ a.image-links {
 	height: 20rem;
 }
 
-.personal {
-	background: url("../images/personal_logo.jpg") center no-repeat;
-}
-
-.mudd_valley {
-	background: url("../images/mudd_valley.jpg") center no-repeat;
-}
-
-.four_logos {
-	background: url("../images/four_logos.jpg") center no-repeat;
-}
-
-.logo_front {
-	background: url("../images/logos.jpg") center no-repeat;
-}
-
-.type_posters {
-background: url("../images/three_period_posters.jpg") center no-repeat;
-}
-
-.uncle_mikes {
-	background: url("../images/uncle_mikes.jpg") center no-repeat;
-}
-
-.infographic {
-	background: url("../images/infographic.jpg") center no-repeat;
-}
-
-.cologne {
-	background: url("../images/black_bear_cologne.jpg") center no-repeat;
-}
-
-.nuovo {
-	background: url("../images/nuovo.jpg") center no-repeat;
-}
-
-.park_shark {
-	background: url("../images/park_shark.jpg") center no-repeat;
-}
-
-.where_am_i {
-	background: url("../images/where_am_i.jpg") center no-repeat;
-}
-
-.thinkful_logo {
-	background: url("../images/thinkful_logo.jpg") center no-repeat;
-}
-
-.thinkful_projects {
-	background: url("../images/thinkful_projects.jpg")center no-repeat;
-}
-
-.cloudr {
-	background: url("../images/cloudr.jpg") center no-repeat;
-}
-
-.cambridge {
-	background: url("../images/cambridge.jpg") center no-repeat;
-}
-
-.personal, .mudd_valley, .four_logos, .logo_front, .type_posters, .uncle_mikes, .infographic, .cologne, .nuovo, .park_shark, .where_am_i, .thinkful_logo, .cloudr, .cambridge {
-	@include background-size(cover)
+// Sets each work-img background
+@each $project in personal, mudd_valley, four_logos, logo_front,
+type_posters, uncle_mikes, infographic, cologne, nuovo, park_shark,
+where_am_i, thinkful_logo, thinkful, cloudr, cambridge {
+  .#{$project}_project {
+    background: url("../images/#{$project}.jpg") center no-repeat;
+    @include background-size(cover);
+  }
 }
 
 // Use rgba to use different opacities as opposed to opacity attribute

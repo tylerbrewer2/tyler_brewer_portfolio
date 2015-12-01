@@ -153,52 +153,106 @@ a.image-links {
   width: 33.333334%;
   height: 20rem; }
 
-.personal {
-  background: url("../images/personal_logo.jpg") center no-repeat; }
+.personal_project {
+  background: url("../images/personal.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.mudd_valley {
-  background: url("../images/mudd_valley.jpg") center no-repeat; }
+.mudd_valley_project {
+  background: url("../images/mudd_valley.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.four_logos {
-  background: url("../images/four_logos.jpg") center no-repeat; }
+.four_logos_project {
+  background: url("../images/four_logos.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.logo_front {
-  background: url("../images/logos.jpg") center no-repeat; }
+.logo_front_project {
+  background: url("../images/logo_front.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.type_posters {
-  background: url("../images/three_period_posters.jpg") center no-repeat; }
+.type_posters_project {
+  background: url("../images/type_posters.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.uncle_mikes {
-  background: url("../images/uncle_mikes.jpg") center no-repeat; }
+.uncle_mikes_project {
+  background: url("../images/uncle_mikes.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.infographic {
-  background: url("../images/infographic.jpg") center no-repeat; }
+.infographic_project {
+  background: url("../images/infographic.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.cologne {
-  background: url("../images/black_bear_cologne.jpg") center no-repeat; }
+.cologne_project {
+  background: url("../images/cologne.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.nuovo {
-  background: url("../images/nuovo.jpg") center no-repeat; }
+.nuovo_project {
+  background: url("../images/nuovo.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.park_shark {
-  background: url("../images/park_shark.jpg") center no-repeat; }
+.park_shark_project {
+  background: url("../images/park_shark.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.where_am_i {
-  background: url("../images/where_am_i.jpg") center no-repeat; }
+.where_am_i_project {
+  background: url("../images/where_am_i.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.thinkful_logo {
-  background: url("../images/thinkful_logo.jpg") center no-repeat; }
+.thinkful_logo_project {
+  background: url("../images/thinkful_logo.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.thinkful_projects {
-  background: url("../images/thinkful_projects.jpg") center no-repeat; }
+.thinkful_project {
+  background: url("../images/thinkful.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.cloudr {
-  background: url("../images/cloudr.jpg") center no-repeat; }
+.cloudr_project {
+  background: url("../images/cloudr.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
-.cambridge {
-  background: url("../images/cambridge.jpg") center no-repeat; }
-
-.personal, .mudd_valley, .four_logos, .logo_front, .type_posters, .uncle_mikes, .infographic, .cologne, .nuovo, .park_shark, .where_am_i, .thinkful_logo, .cloudr, .cambridge {
+.cambridge_project {
+  background: url("../images/cambridge.jpg") center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
