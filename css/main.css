@@ -139,10 +139,34 @@ a.image-links {
       border-color: #003339;
       color: #ffffff; }
 
+.top_overlay {
+  position: absolute;
+  bottom: 0px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 20rem;
+  background: rgba(0, 160, 170, 0);
+  transition: all .5s; }
+
 .work_img {
+  position: relative;
+  overflow: hidden;
   float: left;
   width: 33.333334%;
-  height: 20rem; }
+  height: 20rem;
+  transition: all .3s ease-in-out; }
+  .work_img:hover .img_text {
+    padding-top: 10px; }
+  .work_img:hover .top_overlay {
+    bottom: 70px;
+    background: rgba(34, 33, 39, 0.5); }
+  .work_img:hover .overlay {
+    bottom: 0px; }
+    .work_img:hover .overlay h3 {
+      color: #003339; }
+    .work_img:hover .overlay p {
+      color: #003339; }
 
 .personal_project {
   background: url("../images/personal.jpg") center no-repeat;
@@ -250,29 +274,26 @@ a.image-links {
   background-size: cover; }
 
 .overlay {
+  position: absolute;
+  bottom: -72px;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 20rem;
-  background: rgba(0, 160, 170, 0);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  transition: all 0.5s; }
+  height: 70px;
+  border-top: #222127 solid 2px;
+  background: #ffffff;
+  transition: all .5s; }
   .overlay h3 {
-    color: rgba(255, 255, 255, 0); }
+    color: #ffffff; }
   .overlay p {
-    color: rgba(255, 255, 255, 0); }
+    color: #ffffff; }
   .overlay:hover {
-    background: rgba(0, 160, 170, 0.85);
+    background: #ffffff;
     cursor: pointer; }
-    .overlay:hover h3 {
-      color: white; }
-    .overlay:hover p {
-      color: white; }
 
 .img_text {
   color: #ffffff;
-  padding-top: 9em;
+  padding-top: 50px;
   text-align: center;
   font-weight: 300; }
   .img_text h3 {
