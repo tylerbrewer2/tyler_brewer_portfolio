@@ -1,11 +1,3 @@
-::selection {
-  background: #86E2D5;
-  /* WebKit/Blink Browsers */ }
-
-::-moz-selection {
-  background: #86E2D5;
-  /* Gecko Browsers */ }
-
 body {
   font-family: "Lato", Helvetica, sans-serif; }
 
@@ -27,7 +19,6 @@ body {
 
 .info {
   float: left;
-  font-family: "Lato", Helvetica, sans-serif;
   font-weight: 300;
   margin-top: .3em;
   padding-left: 1em; }
@@ -297,7 +288,6 @@ a.image-links {
   width: 100%;
   background-color: #ffffff;
   color: #ffffff;
-  /*background: url("../images/subway-logo-colors.jpg") center no-repeat;*/
   background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -305,7 +295,6 @@ a.image-links {
   background-size: cover; }
   .skills h1 {
     margin: 0;
-    font-family: "Lato", Helvetica, sans-serif;
     font-weight: 100;
     text-align: right;
     font-size: 3em; }
@@ -320,7 +309,6 @@ a.image-links {
   float: left; }
 
 .skills_list ul {
-  font-family: "Lato", Helvetica, sans-serif;
   font-weight: 100;
   padding-top: .2em;
   font-size: 1.4em;
@@ -373,7 +361,6 @@ a.image-links {
   border: 0; }
 
 .box-text {
-  font-family: "Lato", Helvetica, sans-serif;
   font-style: italic;
   margin-left: 8%;
   margin-right: 8%; }
@@ -424,8 +411,6 @@ div#knowledge {
     font-size: 1.2em;
     line-height: 1.7em; }
   .contact button {
-    -webkit-border-radius: 5;
-    -moz-border-radius: 5;
     border-radius: 5px;
     border: 0;
     color: #ffffff;
