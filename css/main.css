@@ -160,7 +160,7 @@ a.image-links {
     padding-top: 10px; }
   .work_img:hover .top_overlay {
     bottom: 70px;
-    background: rgba(34, 33, 39, 0.5); }
+    background: rgba(0, 160, 170, 0.5); }
   .work_img:hover .overlay {
     bottom: 0px; }
     .work_img:hover .overlay h3 {
