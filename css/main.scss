@@ -191,6 +191,100 @@ where_am_i, thinkful_logo, thinkful, cloudr, cambridge {
     background: url("../images/#{$project}.jpg") center no-repeat;
     @include background-size(cover);
   }
+
+	.#{$project}_banner {
+		background: url("../images/#{$project}_banner.jpg") center no-repeat;
+		@include background-size(cover);
+		height: 600px;
+	}
+}
+
+.banner_text {
+	padding-top: 260px;
+	color: $white;
+	font-family: $lato;
+	font-weight: 100;
+	font-size: 50px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.banner_buttons {
+	text-align: center;
+
+	.view_button {
+		@include rgba-white-bg(0);
+	  -webkit-border-radius: 0;
+	  -moz-border-radius: 0;
+	  border-radius: 0px;
+	  color: $white;
+	  font-size: 14px;
+		letter-spacing: 1px;
+	  padding: 10px 25px 10px 25px;
+		width: 160px;
+	  border: solid $white 1px;
+	  text-decoration: none;
+		transition: all .2s ease;
+		&:hover {
+			@include rgba-white-bg(.2);
+		  text-decoration: none;
+		}
+		&:first-child {
+			margin-right: 20px;
+		}
+	}
+}
+
+.banner_arrows {
+	width: 80%;
+	margin: 135px auto 0 auto;
+	color: $white;
+
+	.banner_arrow_left {
+		opacity: .5;
+		transition: all .2s ease;
+		float:left;
+		&:hover {
+			cursor: pointer;
+			transform: translateX(-2px);
+			opacity: 1;
+		}
+	}
+
+	.banner_arrow_right {
+		float: right;
+		opacity: .5;
+		transition: all .2s ease;
+		&:hover {
+			cursor: pointer;
+			transform: translateX(2px);
+			opacity: 1;
+		}
+	}
+}
+
+
+
+.project_image {
+	text-align: center;
+}
+.desktop_project {
+	width: 100%;
+	max-width: 1200px;
+}
+
+.project-description {
+	margin: 100px auto 0 auto;
+	width: 70%;
+	text-align: center;
+
+	.project_text {
+		color: $rich-black;
+		font-family: $yantramanav;
+		font-weight: 300;
+		font-size: 30px;
+		line-height: 1.5;
+	}
 }
 
 // Use rgba to use different opacities as opposed to opacity attribute

@@ -175,12 +175,28 @@ a.image-links {
   -o-background-size: cover;
   background-size: cover; }
 
+.personal_banner {
+  background: url("../images/personal_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
 .mudd_valley_project {
   background: url("../images/mudd_valley.jpg") center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.mudd_valley_banner {
+  background: url("../images/mudd_valley_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
 
 .four_logos_project {
   background: url("../images/four_logos.jpg") center no-repeat;
@@ -189,12 +205,28 @@ a.image-links {
   -o-background-size: cover;
   background-size: cover; }
 
+.four_logos_banner {
+  background: url("../images/four_logos_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
 .logo_front_project {
   background: url("../images/logo_front.jpg") center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.logo_front_banner {
+  background: url("../images/logo_front_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
 
 .type_posters_project {
   background: url("../images/type_posters.jpg") center no-repeat;
@@ -203,12 +235,28 @@ a.image-links {
   -o-background-size: cover;
   background-size: cover; }
 
+.type_posters_banner {
+  background: url("../images/type_posters_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
 .uncle_mikes_project {
   background: url("../images/uncle_mikes.jpg") center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.uncle_mikes_banner {
+  background: url("../images/uncle_mikes_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
 
 .infographic_project {
   background: url("../images/infographic.jpg") center no-repeat;
@@ -217,12 +265,28 @@ a.image-links {
   -o-background-size: cover;
   background-size: cover; }
 
+.infographic_banner {
+  background: url("../images/infographic_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
 .cologne_project {
   background: url("../images/cologne.jpg") center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.cologne_banner {
+  background: url("../images/cologne_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
 
 .nuovo_project {
   background: url("../images/nuovo.jpg") center no-repeat;
@@ -231,12 +295,28 @@ a.image-links {
   -o-background-size: cover;
   background-size: cover; }
 
+.nuovo_banner {
+  background: url("../images/nuovo_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
 .park_shark_project {
   background: url("../images/park_shark.jpg") center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.park_shark_banner {
+  background: url("../images/park_shark_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
 
 .where_am_i_project {
   background: url("../images/where_am_i.jpg") center no-repeat;
@@ -245,12 +325,28 @@ a.image-links {
   -o-background-size: cover;
   background-size: cover; }
 
+.where_am_i_banner {
+  background: url("../images/where_am_i_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
 .thinkful_logo_project {
   background: url("../images/thinkful_logo.jpg") center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.thinkful_logo_banner {
+  background: url("../images/thinkful_logo_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
 
 .thinkful_project {
   background: url("../images/thinkful.jpg") center no-repeat;
@@ -259,6 +355,14 @@ a.image-links {
   -o-background-size: cover;
   background-size: cover; }
 
+.thinkful_banner {
+  background: url("../images/thinkful_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
 .cloudr_project {
   background: url("../images/cloudr.jpg") center no-repeat;
   -webkit-background-size: cover;
@@ -266,12 +370,97 @@ a.image-links {
   -o-background-size: cover;
   background-size: cover; }
 
+.cloudr_banner {
+  background: url("../images/cloudr_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
 .cambridge_project {
   background: url("../images/cambridge.jpg") center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.cambridge_banner {
+  background: url("../images/cambridge_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
+.banner_text {
+  padding-top: 260px;
+  color: #ffffff;
+  font-family: "Lato", Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 5px; }
+
+.banner_buttons {
+  text-align: center; }
+  .banner_buttons .view_button {
+    background: rgba(255, 255, 255, 0);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 25px 10px 25px;
+    width: 160px;
+    border: solid #ffffff 1px;
+    text-decoration: none;
+    transition: all .2s ease; }
+    .banner_buttons .view_button:hover {
+      background: rgba(255, 255, 255, 0.2);
+      text-decoration: none; }
+    .banner_buttons .view_button:first-child {
+      margin-right: 20px; }
+
+.banner_arrows {
+  width: 80%;
+  margin: 135px auto 0 auto;
+  color: #ffffff; }
+  .banner_arrows .banner_arrow_left {
+    opacity: .5;
+    transition: all .2s ease;
+    float: left; }
+    .banner_arrows .banner_arrow_left:hover {
+      cursor: pointer;
+      transform: translateX(-2px);
+      opacity: 1; }
+  .banner_arrows .banner_arrow_right {
+    float: right;
+    opacity: .5;
+    transition: all .2s ease; }
+    .banner_arrows .banner_arrow_right:hover {
+      cursor: pointer;
+      transform: translateX(2px);
+      opacity: 1; }
+
+.project_image {
+  text-align: center; }
+
+.desktop_project {
+  width: 100%;
+  max-width: 1200px; }
+
+.project-description {
+  margin: 100px auto 0 auto;
+  width: 70%;
+  text-align: center; }
+  .project-description .project_text {
+    color: #222127;
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.5; }
 
 .overlay {
   position: absolute;

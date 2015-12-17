@@ -5,3 +5,7 @@
 	-o-background-size: $size;
 	background-size: $size;
 }
+
+@mixin rgba-white-bg($opacity) {
+  background: rgba(255, 255, 255, $opacity);
+}
