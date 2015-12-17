@@ -241,24 +241,20 @@ where_am_i, thinkful_logo, thinkful, cloudr, cambridge {
 	color: $white;
 
 	.banner_arrow_left {
-		opacity: .5;
 		transition: all .2s ease;
 		float:left;
 		&:hover {
 			cursor: pointer;
 			transform: translateX(-2px);
-			opacity: 1;
 		}
 	}
 
 	.banner_arrow_right {
 		float: right;
-		opacity: .5;
 		transition: all .2s ease;
 		&:hover {
 			cursor: pointer;
 			transform: translateX(2px);
-			opacity: 1;
 		}
 	}
 }

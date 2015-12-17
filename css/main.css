@@ -428,21 +428,17 @@ a.image-links {
   margin: 135px auto 0 auto;
   color: #ffffff; }
   .banner_arrows .banner_arrow_left {
-    opacity: .5;
     transition: all .2s ease;
     float: left; }
     .banner_arrows .banner_arrow_left:hover {
       cursor: pointer;
-      transform: translateX(-2px);
-      opacity: 1; }
+      transform: translateX(-2px); }
   .banner_arrows .banner_arrow_right {
     float: right;
-    opacity: .5;
     transition: all .2s ease; }
     .banner_arrows .banner_arrow_right:hover {
       cursor: pointer;
-      transform: translateX(2px);
-      opacity: 1; }
+      transform: translateX(2px); }
 
 .project_image {
   text-align: center; }
