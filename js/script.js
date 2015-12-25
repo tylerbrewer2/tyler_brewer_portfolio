@@ -53,8 +53,7 @@ var development_hidden = false; //development - red
       opacity:"toggle"
     }, 1000, "linear");
   }
-
-})
+});
 
 $(".development_link").click(function(){
   if(development_hidden === true) {
@@ -72,7 +71,7 @@ $(".development_link").click(function(){
       opacity:"toggle"
     }, 1000, "linear");
   }
-  })
+});
 
   $(".design_link").click(function(){
     if(design_hidden === true) {
@@ -90,9 +89,9 @@ $(".development_link").click(function(){
         opacity:"toggle"
       }, 1000, "linear");
     }
-  })
+  });
 
-})
+});
 
 function scaleVideoContainer() {
 
