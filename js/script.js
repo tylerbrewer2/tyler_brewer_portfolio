@@ -34,63 +34,25 @@ $(document).ready(function() {
     }, 1000);
   });
 
-var design_hidden = false; //design - blue
-var development_hidden = false; //development - red
+  var $design_elements = $('.design');
+  var $development_elements = $('.development');
+  var $design_hidden = false;
+  var $development_hidden = false;
 
   $(".all_link").click(function(){
-    if(design_hidden === true) {
-      design_hidden = false;
-      $(".design").animate({
-      width:"toggle",
-      opacity:"toggle"
-    }, 1000, "linear");
-  }
-
-  if(development_hidden === true) {
-    development_hidden = false;
-    $(".development").animate({
-      width:"toggle",
-      opacity:"toggle"
-    }, 1000, "linear");
-  }
-});
-
-$(".development_link").click(function(){
-  if(development_hidden === true) {
-    development_hidden = false;
-    $(".development").animate({
-      width:"toggle",
-      opacity:"toggle"
-    }, 1000, "linear");
-  }
-
-  if(design_hidden === false) {
-    design_hidden = true;
-    $(".design").animate({
-      width:"toggle",
-      opacity:"toggle"
-    }, 1000, "linear");
-  }
-});
-
-  $(".design_link").click(function(){
-    if(design_hidden === true) {
-      design_hidden = false;
-      $(".design").animate({
-        width:"toggle",
-        opacity:"toggle"
-      }, 1000, "linear");
-    }
-
-    if(development_hidden === false) {
-      development_hidden = true;
-      $(".development").animate({
-        width:"toggle",
-        opacity:"toggle"
-      }, 1000, "linear");
-    }
+    $design_elements.show();
+    $development_elements.show();
   });
 
+  $(".development_link").click(function(){
+    $development_elements.show();
+    $design_elements.hide();
+  });
+
+  $('.design_link').click(function() {
+    $design_elements.show();
+    $development_elements.hide();
+  });
 });
 
 function scaleVideoContainer() {
