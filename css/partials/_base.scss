@@ -20,3 +20,7 @@ $rgba-white-0: rgba(256,256,256,0);
 $rgba-white-1: rgba(256,256,256,1);
 $rgba-light-blue-green-0: rgba(0,160,170,0);
 $rgba-light-blue-green-85: rgba(0,160,170,.85);
+
+// Media Query Breakpoints
+$break-small: "only screen and (max-width : 400px)";
+$break-large: "only screen and (min-width : 1200px)";

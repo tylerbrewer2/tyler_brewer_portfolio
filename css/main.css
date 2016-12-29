@@ -86,10 +86,16 @@ body {
   color: #ffffff;
   font-family: "Yantramanav", sans-serif;
   margin-top: 20em; }
+  @media only screen and (max-width: 400px) {
+    .hero_text {
+      margin-top: 10em; } }
   .hero_text .main_header {
     font-weight: 100;
     font-size: 64px;
     letter-spacing: 12px; }
+    @media only screen and (max-width: 400px) {
+      .hero_text .main_header {
+        font-size: 40px; } }
 
 .arrow {
   margin-top: 4em;
@@ -125,6 +131,9 @@ a.image-links {
   font-size: 1.5em;
   font-weight: 100;
   color: #00a0aa; }
+  @media only screen and (max-width: 400px) {
+    .show_links {
+      display: none; } }
   .show_links li {
     color: #003339;
     border: solid 1px;
@@ -156,6 +165,19 @@ a.image-links {
   width: 33.333334%;
   height: 20rem;
   transition: all .3s ease-in-out; }
+  @media only screen and (max-width: 400px) {
+    .work_img {
+      width: 100%; }
+      .work_img .img_text {
+        padding-top: 10px; }
+      .work_img .top_overlay {
+        bottom: 70px; }
+      .work_img .overlay {
+        bottom: 0px; }
+        .work_img .overlay h3 {
+          color: #003339; }
+        .work_img .overlay p {
+          color: #003339; } }
   .work_img:hover .img_text {
     padding-top: 10px; }
   .work_img:hover .top_overlay {
@@ -525,7 +547,6 @@ a.image-links {
 .knowledge {
   font-family: "Open Sans", Helvetica, sans-serif;
   padding-top: 10em;
-  height: 500px;
   text-align: center; }
 
 .knowledge_icons {
@@ -539,6 +560,9 @@ a.image-links {
   display: inline-block;
   width: 25%;
   padding: 1em; }
+  @media only screen and (max-width: 400px) {
+    .column {
+      width: 75%; } }
   .column h3 {
     font-weight: 600; }
   .column p {
@@ -592,8 +616,8 @@ div#knowledge {
   font-family: "Open Sans", Helvetica, sans-serif;
   clear: both;
   width: 70%;
-  height: 35em;
   margin: 0 auto;
+  padding-bottom: 8em;
   text-align: center; }
   .contact h2 {
     color: #003339;
@@ -707,3 +731,5 @@ div#knowledge {
     transition: all 0.3s ease-in-out 0s; }
   .web_url:visited {
     color: #222127; }
+
+/*# sourceMappingURL=main.css.map */
