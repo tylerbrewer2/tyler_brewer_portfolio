@@ -415,6 +415,51 @@ a.image-links {
   background-size: cover;
   height: 600px; }
 
+.brightly_project {
+  background: url("../images/brightly.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.brightly_banner {
+  background: url("../images/brightly_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
+.myuscis_project {
+  background: url("../images/myuscis.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.myuscis_banner {
+  background: url("../images/myuscis_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
+.wedding_project {
+  background: url("../images/wedding.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.wedding_banner {
+  background: url("../images/wedding_banner.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px; }
+
 .banner_text {
   padding-top: 260px;
   color: #ffffff;
@@ -731,5 +776,9 @@ div#knowledge {
     transition: all 0.3s ease-in-out 0s; }
   .web_url:visited {
     color: #222127; }
+
+@media screen and (max-width: 700px) {
+  .hidden-tablet-and-down {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
