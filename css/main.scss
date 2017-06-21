@@ -221,7 +221,7 @@ a.image-links {
 // Sets each work-img background
 @each $project in personal, mudd_valley, four_logos, logo_front,
 type_posters, uncle_mikes, infographic, cologne, nuovo, park_shark,
-where_am_i, thinkful_logo, thinkful, cloudr, cambridge {
+where_am_i, thinkful_logo, thinkful, cloudr, cambridge, brightly, myuscis, wedding {
   .#{$project}_project {
     background: url("../images/#{$project}.jpg") center no-repeat;
     @include background-size(cover);
@@ -588,5 +588,11 @@ div#knowledge {
   }
   &:visited {
     color: $rich-black;
+  }
+}
+
+.hidden-tablet-and-down {
+  @media screen and (max-width: 700px) {
+    display: none;
   }
 }
